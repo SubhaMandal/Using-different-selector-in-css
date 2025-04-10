@@ -1,0 +1,27 @@
+
+
+h1, h2{
+    color: blueviolet;
+}
+
+/*using group selector here */
+.box > p{
+    color: firebrick;
+}
+
+/* using child selector here */
+
+.box .list {
+    color: blue;
+}
+
+/* using decendant selector here */
+
+li.done{
+    color: seagreen;
+}
+/* using chaining selector here */
+
+ul > p.done{
+    font-size: 0.5rem;
+}
